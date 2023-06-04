@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+background-color: #00ff95;
+}
+/* header start */
+.header {
+    background-color: #ef5705;
+}
+.header_body {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header__logo {
+    width: 100px;
+}
+.header__menu {
+    width: 500px;
+    margin-left: 300px;
+}
+.header__menu li{
+    display: inline-block;
+    margin: 0 50px;
+}
+.header__menu a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.header__button {
+
+}
+
+.music{
+}
+.card-1 {
+    background: linear-gradient(#b10000, #3300ff, #00ff08);
+    width: 300px; 
+    height: 350px;
+    display: inline-block;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.card-1__img {
+    width: 200px;
+}
+.card-1__name {
+    margin: 30px;
+    color: #fbfbfb;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-2__music {
+}
+.card-2 {
+    background: linear-gradient(#fbfbfb, #000000, #ff00b7);
+    width: 300px; 
+    height: 350px;
+    display: inline-block;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.card-2__img {
+    width: 200px;
+}
+.card-2__name {
+    margin: 30px;
+    color: #fbfbfb;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-3 {
+    background: linear-gradient(#00d5ff, #ff00b3, #d9ff00);
+    width: 300px; 
+    height: 350px;
+    display: inline-block;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.card-3__img {
+    width: 200px;
+}
+.card-3__name {
+    margin: 30px;
+    color: #fbfbfb;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-3__music {
+}
+.card-4 {
+    background: linear-gradient(#1500ff, #ef5705, #ffffff);
+    width: 300px; 
+    height: 350px;
+    display: inline-block;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.card-4__img {
+    width: 200px;
+}
+.card-4__name {
+    margin: 30px;
+    color: #fbfbfb;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-4__music {
+}
+
+.myVideo {
+    background-color: #1500ff;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.video {
+    border: 10px solid #000;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+.video__button{
+    padding: 20px 40px;
+    margin-top: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.video__button:hover{
+    background-color: brown;
+    color: rgb(30, 255, 0);
+    letter-spacing: 0px;
+}
